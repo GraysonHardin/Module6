@@ -7,7 +7,7 @@ This program will ask for two user inputs: a test name and a test score. The inp
 """
 
 
-def score_input(test_name, test_score=0, invalid_message='Invalid test score, try again!'):
+def score_input(test_name, test_score, invalid_message):
     return pass
 
 
