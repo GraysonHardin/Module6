@@ -8,7 +8,7 @@ This program will ask for two user inputs: a test name and a test score. The inp
 
 
 def score_input(test_name, test_score, invalid_message):
-    return pass
+    return pass #return {test_name: test_score}
 
 
 if __name__ == '__main__':
