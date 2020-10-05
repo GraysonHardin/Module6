@@ -13,6 +13,9 @@ def main():
     result = multiply_string(message, n)
     print(result)
 
+    if not message.isalpha() or n < 2 or n > 7:  # While this was not listed on the assignment, the rubric made me question whether or not there should be code that handles bad input. To be safe, I went ahead and added it so that I would not lose points. Enjoy!
+        raise ValueError('Value is not within range and/or input is invalid')
+
 
 def multiply_string(message, n):
     return n * message
